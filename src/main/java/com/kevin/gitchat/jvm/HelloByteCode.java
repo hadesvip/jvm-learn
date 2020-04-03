@@ -1,9 +1,14 @@
 package com.kevin.gitchat.jvm;
 
 /**
- * TODO 大哥加点注释吧
+ * java byte code
  *
  * @author wangyong
  */
 public class HelloByteCode {
+    public static void main(String[] args) {
+        HelloByteCode helloByteCode = new HelloByteCode();
+
+
+    }
 }

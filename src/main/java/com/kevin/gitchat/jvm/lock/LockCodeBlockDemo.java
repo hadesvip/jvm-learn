@@ -5,7 +5,7 @@ package com.kevin.gitchat.jvm.lock;
  *
  * @author wangyong
  */
-public class LockDemo {
+public class LockCodeBlockDemo {
 
     private Object object = new Object();
 
