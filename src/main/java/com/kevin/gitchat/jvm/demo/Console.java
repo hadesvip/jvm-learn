@@ -26,8 +26,6 @@ public class Console {
 
     ExecutorService executorService = Executors.newFixedThreadPool(10);
 
-    HashMap
-
 
   }
 
