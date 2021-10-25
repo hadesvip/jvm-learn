@@ -13,15 +13,16 @@ public class JVMObjectRunner {
     int size = 1024 * 1024;
     byte[] byteArray1 = new byte[4 * size];
     System.out.println("此时Eden区域大小:4M");
-//    for (int i = 0; i <=16; i++) {
-//      System.gc();
-//    }
+    for (int i = 0; i <=16; i++) {
+      System.gc();
+    }
+    System.out.println("此时老年代空间:4M");
     byte[] byteArray2 = new byte[4 * size];
-    System.out.println("此时Eden区域大小还是:4M，老年代:4M");
-    byte[] byteArray3 = new byte[4 * size];
-    System.out.println("此时Eden区域大小还是:4M,老年代:8M");
-    byte[] byteArray4 = new byte[3 * size];
-    System.out.println("此时Eden区域大小还是:7M");
+//    System.out.println("此时Eden区域大小还是:4M，老年代:4M");
+//    byte[] byteArray3 = new byte[4 * size];
+//    System.out.println("此时Eden区域大小还是:4M,老年代:8M");
+//    byte[] byteArray4 = new byte[3 * size];
+//    System.out.println("此时Eden区域大小还是:7M");
   }
 
 
