@@ -24,8 +24,4 @@ public class JVMObjectRunner {
 //    byte[] byteArray4 = new byte[3 * size];
 //    System.out.println("此时Eden区域大小还是:7M");
   }
-
-
-
-
 }
